@@ -1,0 +1,4 @@
+! option = symbols
+  F77:numpad5 = +F77(numpad5)
+
+! include %S/evdev

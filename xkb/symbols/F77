@@ -1,0 +1,20 @@
+partial keypad_keys
+xkb_symbols "numpad5" {
+
+    key.type[Group1]="KEYPAD" ;
+
+    key <KP7>  { [    KP_Insert,  KP_7 ] }; //     <insert> 7
+    key <KP8>  { [      KP_Home,  KP_8 ] }; //       <home> 8
+    key <KP9>  { [   KP_Page_Up,  KP_9 ] }; //      <prior> 9
+
+    key <KP4>  { [    KP_Delete,  KP_4 ] }; //       <left> 4
+    key <KP5>  { [       KP_End,  KP_5 ] }; //      <begin> 5
+    key <KP6>  { [ KP_Page_Down,  KP_6 ] }; //      <right> 6
+
+    key <KP1>  { [     NoSymbol,  KP_1 ] }; //        <end> 1
+    key <KP2>  { [     NoSymbol,  KP_2 ] }; //       <down> 2
+    key <KP3>  { [     NoSymbol,  KP_3 ] }; //       <next> 3
+
+    key <KP0>  { [   KP_Page_Up,  KP_0 ] }; //      <prior> 0
+    key <KPDL> { [ KP_Page_Down,  KP_Decimal ] }; // <next> .
+};
